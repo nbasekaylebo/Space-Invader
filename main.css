@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(0, 255, 174);
+}
+
+.grid {
+  width: 604px;
+  height: 604px;
+  border: white solid 2px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 40px);
+  grid-auto-rows: 40px;
+}
+
+.grid > div {
+  width: 40px;
+  height: 40px;
+}
